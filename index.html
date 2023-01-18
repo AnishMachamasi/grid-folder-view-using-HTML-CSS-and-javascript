@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Folder View</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <style>
+    /* Grid container */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+    }
+    /* Grid items */
+    .grid-item {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+    /* Folder icon */
+    .folder-icon {
+      font-size: 50px;
+    }
+     /* Folder name and description */
+     .folder-name {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .folder-description {
+      font-size: 18px;
+    }
+    /* Media query for responsiveness */
+    @media (max-width: 767px) {
+      .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 479px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">
+      <i class="folder-icon fa fa-folder"></i>
+      <br>
+      <h3>Folder 1</h3>
+      <p>This folder contains documents related to project 1.</p>
+    </div>
+    <div class="grid-item">
+      <i class="folder-icon fa fa-folder"></i>
+      <br>
+      <h3>Folder 2</h3>
+      <p>This folder contains documents related to project 2.</p>
+    </div>
+    <div class="grid-item">
+      <i class="folder-icon fa fa-folder"></i>
+      <br>
+      <h3>Folder 3</h3>
+      <p>This folder contains documents related to project 3.</p>
+    </div>
+    <div class="grid-item">
+      <i class="folder-icon fa fa-folder"></i>
+      <br>
+      <h3>Folder 4</h3>
+      <p>This folder contains documents related to project 4.</p>
+    </div>
+    <div class="grid-item">
+      <i class="folder-icon fa fa-folder"></i>
+      <br>
+      <h3>Folder 5</h3>
+      <p>This folder contains documents related to project 5.</p>
+    </div>
+    <div class="grid-item">
+      <i class="folder-icon fa fa-folder"></i>
+      <br>
+      <h3>Folder 6</h3>
+      <p>This folder contains documents related to project 6.</p>
+    </div>
+    <div class="grid-item">
+      <i class="folder-icon fa fa-folder"></i>
+      <br>
+      <h3>Folder 7</h3>
+      <p>This folder contains documents related to project 7.</p>
+    </div>
+    <div class="grid-item">
+      <i class="folder-icon fa fa-folder"></i>
+      <br>
+      <h3>Folder 8</h3>
+      <p>This folder contains documents related to project 8.</p>
+    </div>
+  </div>
+</body>
+</html>
